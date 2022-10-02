@@ -1,0 +1,205 @@
+/* media queries :@media screen and (max-width: 1024px) {
+    
+} */
+
+body{
+    background-color: #cfcfcf;
+    margin: 0%;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    
+}
+
+#titre{
+    
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 2%;
+    margin-top: 0%;
+}
+
+#navbar{
+    color: white;
+    padding: 0%;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+div.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:33%;
+    padding-right:33%;
+    background-color:#cfcfcf;
+}
+
+p.descrip{
+    margin: 0%;
+}
+
+div.imagecasque{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+}
+
+div.txtoverimg{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(233, 233, 233);
+    font-size: 45px;
+}
+
+div.esthetique{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+#listeun{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#listedeux{
+    list-style: none;
+}
+
+#listetrois{
+    list-style: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    font-size: 25px;
+}
+
+div.options{
+    background-color: lightgrey;
+}
+
+#lstoptions{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: baseline;
+}
+
+div.appmobile{
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    flex-basis: 40%;
+}
+
+.txtimage{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4px;
+}
+
+div.video{
+    display: flex;
+    justify-content: center;
+}
+
+div.atouts{
+    background-color: #f2f2f2;
+}
+
+#liatouts{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0%;
+}
+
+
+#caracteristiques{
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1080px) {
+
+    div.description{
+
+        padding-left: 20%;
+        padding-right: 20%;
+        font-size: 210%;
+    }
+
+    div.appmobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.txtimage{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    div.description{
+        font-size: 150%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    #listeun{
+        padding: 0%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #lstoptions{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.appmobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #liatouts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caracteristiques{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
